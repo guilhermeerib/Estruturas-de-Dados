@@ -1,0 +1,211 @@
+Teste: Sistema de Atendimento de Suporte Técnico
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: tamanho() -> Resultado: 0, Esperado: 0
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: enfileira(888)
+Operação: desenfileira() -> Resultado: 888, Esperado: 888
+Operação: frente() -> Resultado: -1, Esperado: -1
+Operação: tamanho() -> Resultado: 0, Esperado: 0
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: tamanho() -> Resultado: 0, Esperado: 0
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: frente() -> Resultado: -1, Esperado: -1
+Operação: enfileira(549)
+Operação: frente() -> Resultado: 549, Esperado: 549
+Operação: tamanho() -> Resultado: 1, Esperado: 1
+Operação: desenfileira() -> Resultado: 549, Esperado: 549
+Operação: frente() -> Resultado: -1, Esperado: -1
+Opera�ão: frente() -> Resultado: -1, Esperado: -1
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: frente() -> Resultado: -1, Esperado: -1
+Operação: enfileira(793)
+Operação: enfileira(386)
+Operação: tamanho() -> Resultado: 2, Esperado: 2
+Operação: enfileira(939)
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(827)
+Operação: enfileira(114)
+Operação: desenfileira() -> Resultado: 793, Esperado: 793
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: enfileira(14)
+Operaç�o: frente() -> Resultado: 386, Esperado: 386
+Operação: tamanho() -> Resultado: 5, Esperado: 5
+Operação: enfileira(266)
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(839)
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: enfileira(604)
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: desenfileira() -> Resultado: 386, Esperado: 386
+Operação: frente() -> Resultado: 939, Esperado: 939
+Operação: desenfileira() -> Resultado: 939, Esperado: 939
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: desenfileira() -> Resultado: 827, Esperado: 827
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: desenfileira() -> Resultado: 114, Esperado: 114
+Operação: tamanho() -> Resultado: 4, Esperado: 4
+Operação: enfileira(358)
+Operação: tamanho() -> Resultado: 5, Esperado: 5
+Operação: enfileira(327)
+Operação: desenfileira() -> Resultado: 14, Esperado: 14
+Operação: enfileira(213)
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: enfileira(75)
+Operação: frente() -> Resultado: 266, Esperado: 266
+Operação: enfileira(267)
+Operação: frente() -> Resultado: 266, Esperado: 266
+Operação: enfileira(871)
+Operação: desenfileira() -> Resultado: 266, Esperado: 266
+Operação: desenfileira() -> Resultado: 839, Esperado: 839
+Operação: enfileira(282)
+Operação: tamanho() -> Resultado: 8, Esperado: 8
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(128)
+Operação: tamanho() -> Resultado: 9, Esperado: 9
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: desenfileira() -> Resultado: 604, Esperado: 604
+Operação: tamanho() -> Resultado: 8, Esperado: 8
+Operação: enfileira(869)
+Operação: desenfileira() -> Resultado: 358, Esperado: 358
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(282)
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: tamanho() -> Resultado: 9, Esperado: 9
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: frente() -> Resultado: 327, Esperado: 327
+
+Taxa de acerto: 100%
+
+Teste: Sistema de Fila de Pedidos em uma Lanchonete
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: tamanho() -> Resultado: 0, Esperado: 0
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: enfileira(888)
+Operação: desenfileira() -> Resultado: 888, Esperado: 888
+Operação: frente() -> Resultado: -1, Esperado: -1
+Operação: tamanho() -> Resultado: 0, Esperado: 0
+Operação: vazia() -> Resultado: true, Esperado: true
+Opera�ão: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: tamanho() -> Resultado: 0, Esperado: 0
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Opera�ão: frente() -> Resultado: -1, Esperado: -1
+Operação: enfileira(549)
+Operação: frente() -> Resultado: 549, Esperado: 549
+Operação: tamanho() -> Resultado: 1, Esperado: 1
+Operação: desenfileira() -> Resultado: 549, Esperado: 549
+Operação: frente() -> Resultado: -1, Esperado: -1
+Operação: frente() -> Resultado: -1, Esperado: -1
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: desenfileira() -> Resultado: -1, Esperado: -1
+Operação: vazia() -> Resultado: true, Esperado: true
+Operação: frente() -> Resultado: -1, Esperado: -1
+Operação: enfileira(793)
+Operação: enfileira(386)
+Operação: tamanho() -> Resultado: 2, Esperado: 2
+Operação: enfileira(939)
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(827)
+Operação: enfileira(114)
+Operação: desenfileira() -> Resultado: 793, Esperado: 793
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: enfileira(14)
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: tamanho() -> Resultado: 5, Esperado: 5
+Operação: enfileira(266)
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Opera�ão: tamanho() -> Resultado: 6, Esperado: 6
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(839)
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: enfileira(604)
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: frente() -> Resultado: 386, Esperado: 386
+Operação: desenfileira() -> Resultado: 386, Esperado: 386
+Operação: frente() -> Resultado: 939, Esperado: 939
+Operação: desenfileira() -> Resultado: 939, Esperado: 939
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: desenfileira() -> Resultado: 827, Esperado: 827
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: desenfileira() -> Resultado: 114, Esperado: 114
+Operação: tamanho() -> Resultado: 4, Esperado: 4
+Operação: enfileira(358)
+Operação: tamanho() -> Resultado: 5, Esperado: 5
+Operação: enfileira(327)
+Operação: desenfileira() -> Resultado: 14, Esperado: 14
+Operação: enfileira(213)
+Operação: tamanho() -> Resultado: 6, Esperado: 6
+Operação: enfileira(75)
+Operação: frente() -> Resultado: 266, Esperado: 266
+Operação: enfileira(267)
+Operação: frente() -> Resultado: 266, Esperado: 266
+Operação: enfileira(871)
+Operação: desenfileira() -> Resultado: 266, Esperado: 266
+Operação: desenfileira() -> Resultado: 839, Esperado: 839
+Operação: enfileira(282)
+Operação: tamanho() -> Resultado: 8, Esperado: 8
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(128)
+Operação: tamanho() -> Resultado: 9, Esperado: 9
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: desenfileira() -> Resultado: 604, Esperado: 604
+Operação: tamanho() -> Resultado: 8, Esperado: 8
+Operação: enfileira(869)
+Operação: desenfileira() -> Resultado: 358, Esperado: 358
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: vazia() -> Resultado: false, Esperado: false
+Operação: enfileira(282)
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: tamanho() -> Resultado: 9, Esperado: 9
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: frente() -> Resultado: 327, Esperado: 327
+Operação: frente() -> Resultado: 327, Esperado: 327
+
+Taxa de acerto: 100%
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
